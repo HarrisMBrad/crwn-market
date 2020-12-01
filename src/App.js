@@ -30,6 +30,11 @@ class App extends React.Component {
               ...snapshot.data()
             
           });
+<<<<<<< HEAD
+=======
+
+          console.log(this.state);
+>>>>>>> a90f77c3cc59cd1de402a781db1237f0f405f9c4
         });
       }
 
@@ -58,5 +63,9 @@ class App extends React.Component {
 }
 
 
+<<<<<<< HEAD
+=======
+// dev-branch...
+>>>>>>> a90f77c3cc59cd1de402a781db1237f0f405f9c4
 
 export default App;

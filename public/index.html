@@ -25,7 +25,31 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Crown Market</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyA3fnIoXMMoFPlej7FSzicigdzrexzXdTc",
+    authDomain: "crwn-mrkt-db.firebaseapp.com",
+    databaseURL: "https://crwn-mrkt-db.firebaseio.com",
+    projectId: "crwn-mrkt-db",
+    storageBucket: "crwn-mrkt-db.appspot.com",
+    messagingSenderId: "487661895036",
+    appId: "1:487661895036:web:1b190d5aa9557b3bbcf8f9",
+    measurementId: "G-5QZWDLJLW3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
