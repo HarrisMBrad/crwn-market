@@ -2,6 +2,7 @@ import { createStore, applyMiddleware } from 'redux';
 
 import logger from 'redux-logger';
 
+<<<<<<< HEAD
 import rootReducer from './root.reducer';
 
 const middlewares = [logger];
@@ -9,3 +10,15 @@ const middlewares = [logger];
 const store = createStore(rootReducer, applyMiddleware(...middlewares));
 
 export default store;
+=======
+import rootReducer from './root-reducer';
+
+const middlewares = [logger];
+
+
+
+const store = createStore(rootReducer, applyMiddleware(...middlewares)
++  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
+export default store;
+>>>>>>> ded95278c04ccaec74854e318d3fa8350c16eb95
