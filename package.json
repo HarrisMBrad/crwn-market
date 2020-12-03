@@ -14,10 +14,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.0",
     "redux": "^4.0.5",
-<<<<<<< HEAD
-=======
     "redux-devtools-extension": "^2.13.8",
->>>>>>> ded95278c04ccaec74854e318d3fa8350c16eb95
     "redux-logger": "^3.0.6"
   },
   "scripts": {
