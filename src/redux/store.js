@@ -12,7 +12,7 @@ export const store = createStore(rootReducer, applyMiddleware(...middlewares));
 const persistor = persistStore(store);
 
 
-export default {store, persistor}; // error message thinks its not exporting...?
+export {store, persistor}; // error message thinks its not exporting...?
 
 
  
