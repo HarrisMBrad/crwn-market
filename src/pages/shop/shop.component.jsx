@@ -7,8 +7,8 @@ import CollectionPage from '../collection/collection.component'
 import { selectCollections } from '../../redux/shop/shop_selectors';
 import { createStructuredSelector } from 'reselect';
 // 
-constmapStateToProps = createStructuredSelector({
-      collections: selectCollections
+const mapStateToProps = createStructuredSelector({
+       collections: selectCollections
 });
 
 //
