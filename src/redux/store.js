@@ -8,11 +8,6 @@ const middlewares = [logger];
 
 export const store = createStore(rootReducer, applyMiddleware(...middlewares));
 
-/**I am trying to export persistor ... 
- *
- * I still cannot resolve 'redux-persist' from redux... */
-
-
 export const persistor = persistStore(store);
 
 
