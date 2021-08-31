@@ -1,6 +1,6 @@
 {
-  "name": "crwn-market",
-  "version": "0.1.0",
+  "name": "Yes",
+  "version": "Yes",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -41,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Yes",
+  "main": "index.js",
+  "repository": "https://github.com/HarrisMBrad/crwn-market.git",
+  "license": "MIT"
 }
