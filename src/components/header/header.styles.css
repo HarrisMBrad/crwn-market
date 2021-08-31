@@ -1,27 +1,44 @@
 .header {
-      height: 70px;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 25px;
-    
-      .logo-container {
-        height: 100%;
-        width: 70px;
-        padding: 25px;
-      }
-    
-      .options {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    
-        .option {
-          padding: 10px 15px;
-          cursor: pointer;
-        }
-      }
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4285f4; /* GoogleBlue color with 50% alpha/opacity */
+  padding: 1px 2px;
+  margin-bottom: 25px;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: -50px; /* Equal to the height difference between header-outer and header-inner */
+    height: 120px;
+  }
+
+  .header-outer {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: -50px; /* Equal to the height difference between header-outer and header-inner */
+    height: 120px;
+  }
+
+  .header-inner {
+    height: 70px;
+    position: sticky;
+    top: 0;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
     }
-    
+  }
+}
