@@ -34,6 +34,7 @@ class App extends React.Component {
         });
       }
       setCurrentUser(userAuth);
+      console.log(('What is this?')); // exposed data...fix before too long
     });
   }
 
